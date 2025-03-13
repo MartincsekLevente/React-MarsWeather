@@ -1,0 +1,14 @@
+.mars-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mars-img-container {
+    width: 100px;
+    height: 100px;
+    background: darkorange;
+    border-radius: 50%;
+}

@@ -1,8 +1,11 @@
 import './App.css'
+import Mars from "./Components/Mars/Mars.tsx";
 
 export default function App() {
 
     return (
-        <>Hello Mars!</>
+        <div className="app-container">
+            <Mars></Mars>
+        </div>
     );
 }
