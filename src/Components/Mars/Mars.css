@@ -1,4 +1,4 @@
-.mars-container {
+.mars-wrapper {
     height: 100%;
     width: 100%;
     display: flex;
@@ -6,9 +6,50 @@
     justify-content: center;
 }
 
-.mars-img-container {
-    width: 100px;
-    height: 100px;
-    background: darkorange;
+.mars-container {
+    position: absolute;
+    left: min(-25vh, -25vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(120vw, 120vh);
+    height: min(120vw, 120vh);
+    background: #e77d11;
     border-radius: 50%;
+    box-shadow: 7px 0 12px 5px #bb5e13;
+}
+
+.mars-info-anchor {
+    width: 0;
+    height: 0;
+}
+
+.mars-info-anchor > :nth-child(1) {
+    left: 35vw;
+    top: -20vw;
+}
+
+.mars-info-anchor > :nth-child(2) {
+    left: 40vw;
+    top: -11vw;
+}
+
+.mars-info-anchor > :nth-child(3) {
+    left: 45vw;
+    top: -3vw;
+}
+
+.mars-info-anchor > :nth-child(4) {
+    left: 45vw;
+    top: 3vw;
+}
+
+.mars-info-anchor > :nth-child(5) {
+    left: 40vw;
+    top: 11vw;
+}
+
+.mars-info-anchor > :nth-child(6) {
+    left: 35vw;
+    top: 20vw;
 }
