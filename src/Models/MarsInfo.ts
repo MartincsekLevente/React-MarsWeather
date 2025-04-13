@@ -1,4 +1,5 @@
 export interface MarsInfo {
+    // @ts-ignore
     sol_keys: string[];
     [sol: string]: SolWeather;
 }
